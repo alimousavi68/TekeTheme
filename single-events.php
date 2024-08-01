@@ -22,12 +22,16 @@ else:
 	$single_rendered = false;
 endif;
 ?>
-
+<style>
+	p{
+		text-align: justify;
+	}
+</style>
 <?php
 if (!$single_rendered):
 
 	?>
-	<div class="blogistic-container">
+	<div class="blogistic-container d-flex p-0 justify-content-center w-100">
 		<main id="primary" class="site-main">
 			<?php
 			echo '<div class="blogistic-inner-content-wrap">'; //inner-content-wrap
@@ -76,8 +80,8 @@ if (!$single_rendered):
 					}
 				</style>
 				<div class=" d-flex flex-column gap-3">
-					<div class="d-flex row ">
-					<div class="col-12 col-lg-4 image-content">
+					<div class="d-flex row m-0">
+					<div class="col-12 col-lg-4 image-content ">
 							<?php
 							the_post_thumbnail('large');
 							?>
