@@ -86,7 +86,7 @@ if (!$single_rendered):
 							the_post_thumbnail('large');
 							?>
 						</div>
-						<div class="col-12 col-lg-8 text-content">
+						<div class="col-12 col-lg-8 m-0 text-content">
 							<h1><?php the_title(); ?></h1>
 							<p> <?php the_excerpt(); ?></p>
 						</div>
