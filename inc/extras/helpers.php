@@ -23,7 +23,7 @@ if (!function_exists('blogistic_top_header_html')):
         ?>
         <div class="<?php echo esc_attr($elementClass); ?>">
             <div class="blogistic-container">
-                <div class="row">
+                <div class="row my-1">
                     <?php
                     /**
                      * hook - blogistic_top_header_hook
@@ -58,7 +58,7 @@ if (!function_exists('blogistic_header_html')):
         ?>
         <div class="<?php echo esc_attr($elementClass); ?>">
             <div class="blogistic-container">
-                <div class="row">
+                <div class="row py-1">
                     <?php
                     if (!is_null($header_sortable_options) && is_array($header_sortable_options)):
                         foreach ($header_sortable_options as $index => $re_order):
@@ -197,7 +197,7 @@ if (!function_exists('blogistic_main_banner_html')):
         ?>
         <section class="<?php echo esc_attr($banner_class) ?>" id="blogistic-main-banner-section">
             <div class="blogistic-container">
-                <div class="row">
+                <div class="row my-1">
                     <div class="main-banner-wrap">
                         <?php
                         $post_order = explode('-', $main_banner_post_order);
@@ -341,7 +341,7 @@ if (!function_exists('blogistic_carousel_html')):
         ?>
         <section class="<?php echo esc_attr($elementClass); ?>" id="blogistic-carousel-section">
             <div class="blogistic-container">
-                <div class="row">
+                <div class="row my-1">
                     <div class="carousel-wrap">
                         <?php
                         $post_order = explode('-', $carousel_post_order);
@@ -684,7 +684,7 @@ if (!function_exists('blogistic_bottom_footer_sections_html')):
         ?>
         <div class="bottom-footer">
             <div class="blogistic-container">
-                <div class="row">
+                <div class="row my-1">
                     <?php
                     /**
                      * hook - blogistic_bottom_footer_sections_html
@@ -894,7 +894,7 @@ if (!function_exists('blogistic_category_collection_html')):
         ?>
         <section class="<?php echo esc_attr($sectionClass); ?>" id="blogistic-category-collection-section">
             <div class="blogistic-container">
-                <div class="row">
+                <div class="row my-1">
                     <div class="category-collection-wrap">
                         <?php
                         if (!is_null($get_all_categories) && is_array($get_all_categories)):

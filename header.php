@@ -23,18 +23,21 @@ use Blogistic\CustomizerDefault as BIT;
 			.main-header .site-branding-section {
 				flex: 100% !important;
 			}
+
+			.image-content {
+				flex: 0 0 100% !important;
+			}
 		}
 	</style>
 
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> <?php blogistic_schema_body_attributes(); ?>>
+<body  <?php body_class('p-0'); ?>  <?php blogistic_schema_body_attributes(); ?> class="p-0">
 	<?php wp_body_open(); ?>
 
 	<div id="page" class="site">
-		<a class="skip-link screen-reader-text"
-			href="#primary"><?php esc_html_e('Skip to content', 'blogistic'); ?></a>
+		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'blogistic'); ?></a>
 		<?php
 		if (did_action('elementor/loaded') && class_exists('Nekit_Render_Templates_Html')):
 			$Nekit_render_templates_html = new Nekit_Render_Templates_Html();

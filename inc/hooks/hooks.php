@@ -95,7 +95,7 @@ if( ! function_exists( 'blogistic_archive_header_html' ) ) :
         if( is_author() && ! BIT\blogistic_get_customizer_option( 'archive_author_info_box_option' ) ) return;
         echo '<header class="page-header">';
             echo '<div class="blogistic-container">';
-                echo '<div class="row">';
+                echo '<div class="row my-1">';
                     if( is_category() ) {
                         $archive_category_info_box_icon_option = BIT\blogistic_get_customizer_option( 'archive_category_info_box_icon_option' );
                         $archive_category_info_box_icon = BIT\blogistic_get_customizer_option( 'archive_category_info_box_icon' );

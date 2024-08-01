@@ -53,7 +53,7 @@ if( ! function_exists( 'blogistic_header_main_advertisement_part' ) ) :
         ?>
             <div class="advertisement-banner">
                 <div class="blogistic-container">
-                    <div class="row">
+                    <div class="row my-1">
                         <?php
                             $header_ads_banner_image_url = BIT\blogistic_get_customizer_option( 'header_ads_banner_image_url' );
                             $header_ads_banner_image_target_attr = BIT\blogistic_get_customizer_option( 'header_ads_banner_image_target_attr' );
@@ -236,7 +236,7 @@ if( ! function_exists( 'blogistic_header_menu_part' ) ) :
         ?>
             <section class="blogistic-advertisement-section-header blogistic-advertisement <?php echo esc_html( $elementClass ); ?>">
                 <div class="blogistic-container">
-                    <div class="row">
+                    <div class="row my-1">
                         <div class="advertisement-wrap">
                             <?php
                                 if( ! empty( $advertisement_repeater_decoded ) ) :
@@ -280,7 +280,7 @@ if( ! function_exists( 'blogistic_header_menu_part' ) ) :
         ?>
             <section class="blogistic-advertisement-section-footer blogistic-advertisement <?php echo esc_html( $elementClass ); ?>">
                 <div class="blogistic-container">
-                    <div class="row">
+                    <div class="row my-1">
                         <div class="advertisement-wrap">
                             <?php
                                 if( ! empty( $advertisement_repeater_decoded ) ) :
@@ -324,7 +324,7 @@ if( ! function_exists( 'blogistic_header_menu_part' ) ) :
         ?>
             <section class="blogistic-advertisement-section-before-content blogistic-advertisement <?php echo esc_html( $elementClass ); ?>">
                 <div class="blogistic-container">
-                    <div class="row">
+                    <div class="row my-1">
                         <div class="advertisement-wrap">
                             <?php
                                 if( ! empty( $advertisement_repeater_decoded ) ) :
@@ -368,7 +368,7 @@ if( ! function_exists( 'blogistic_header_menu_part' ) ) :
         ?>
             <section class="blogistic-advertisement-section-after-content blogistic-advertisement <?php echo esc_html( $elementClass ); ?>">
                 <div class="blogistic-container">
-                    <div class="row">
+                    <div class="row my-1">
                         <div class="advertisement-wrap">
                             <?php
                                 if( ! empty( $advertisement_repeater_decoded ) ) :
