@@ -1,0 +1,450 @@
+/**
+ * Applies styling for repeater control
+ * 
+ * Particular styling for this control
+ */
+ .blogistic-repeater-control .blogistic-repeater-control-inner,
+ .customize-social-share-control .blogistic-social-share-inner {
+    padding: 10px 0;
+ }
+
+ .blogistic-repeater-control .blogistic-repeater-control-inner .blogistic-repeater-item,
+ .customize-social-share-control .blogistic-social-share-inner .sort-item
+  {
+    background: #ffffff;
+    box-shadow: 0px 0px 3px #a6a6a6;
+    z-index: 2;
+    margin-bottom: 12px;
+    position: relative;
+ }
+
+ .customize-social-share-control .blogistic-social-share-inner .sort-item {
+    border: 1px solid #dbdbdb;
+    box-shadow: none;
+ }
+
+ #customize-control-social_icons .blogistic-repeater-control-inner .blogistic-repeater-item {
+    box-shadow: none;
+    border: 1px solid #dbdbdb;
+ }
+
+
+ .blogistic-repeater-item .remove-item .dashicons-trash,
+ .blogistic-social-share-inner .sort-item .dashicons-trash {
+    background-color: #ff4e7d;
+    color: #fff;
+    font-size: 10px;
+    height: 12px;
+    visibility: hidden;
+    width: 16px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+.blogistic-repeater-control .blogistic-repeater-control-inner .blogistic-repeater-item:hover .remove-item .dashicons-trash,
+.customize-social-share-control .blogistic-social-share-inner .sort-item:hover .dashicons-trash {
+    visibility: visible;
+}
+
+ .blogistic-repeater-control .blogistic-repeater-control-inner .blogistic-repeater-item.not-visible {
+    opacity: 0.6;
+    border: 1px dashed;
+ }
+
+ .blogistic-repeater-control-inner .blogistic-repeater-item h2 {
+    margin: 0;
+ }
+
+ .blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap,
+ .customize-social-share-control .blogistic-social-share-inner .sort-list .sort-item
+  {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4px;
+
+    align-items: center;
+    font-size: 15px;
+    padding: 10px;
+ }
+
+ .blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .display-icon,
+ .blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .item-heading,
+ .customize-social-share-control .blogistic-social-share-inner .sort-list .sort-item .sort-title {
+    cursor: pointer;
+ }
+
+  .blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .display-icon:hover,
+  .blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .settings-icon:hover,
+  .customize-social-share-control .blogistic-social-share-inner .sort-list .sort-item .blogistic-dropdown-icon:hover {
+    cursor: pointer;
+    background-color: #f9f9f9;
+  }
+
+  .customize-social-share-control .blogistic-social-share-inner .sort-item .dashicons-trash {
+    position: absolute;
+    left: -11px;
+    padding: 4px 3px 1px 3px;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 25px;
+    height: 12px;
+    width: 13px;
+    text-align: center;
+    display: inline-block;
+    top: -9px;
+  }
+
+  .customize-social-share-control .blogistic-social-share-inner .sort-item .dashicons-trash:hover {
+    background-color: #fe1352;
+    cursor: pointer;
+  } 
+
+ .blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .sortable-icon {
+    cursor: move;
+ }
+
+ .blogistic-repeater-control-inner .blogistic-repeater-item .item-control-fields {
+    display: none;
+    padding: 10px 20px;
+    border-top: 1px solid #7b7b7b40;
+}
+
+.blogistic-repeater-item .item-control-fields .control--item-label {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.blogistic-repeater-item .item-control-fields .control--item-description {
+    font-size: 12px;
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.blogistic-repeater-item .item-control-fields .single-control {
+    margin-bottom: 8px;
+}
+
+.customize-control .blogistic-repeater-control input, 
+.customize-control .blogistic-repeater-control textarea,
+.customize-control .blogistic-repeater-control .image-holder {
+    width: 100%;
+    margin-top: 2px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+    border-radius: 0;
+}
+
+.blogistic-repeater-control-inner .buttons-wrap {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.blogistic-repeater-control-inner .buttons-wrap .add-new-item {
+    padding: 6px 11px;
+    box-shadow: 1px 1px 2px 2px rgb(24 35 177 / 28%);
+    border: transparent;
+}
+
+.blogistic-repeater-control-inner .remove-item {
+    color: #d63638;
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    left: -4px;
+    top: -3px;
+}
+
+.blogistic-repeater-control-inner .image-field .image-holder .add-image-trigger {
+    cursor: pointer;
+    text-align: center;
+    border: 1px dashed #aba9a9;
+    padding: 8px 10px;
+}
+
+.blogistic-repeater-control-inner .blogistic-repeater-item.popupActive .item-heading-wrap .item-heading {
+    font-weight: 500;
+}
+
+
+  .customize-control .button-wrap .add-new-item .dashicon-plus {
+      vertical-align: middle;
+      padding-right: 3px;
+      padding-top: 1px;
+  }
+
+
+.blogistic-repeater-control-inner .image-field .no-image, 
+.blogistic-repeater-control-inner .image-field .no-trigger {
+    display: none;
+}
+
+.blogistic-repeater-control-inner .image-field .image-holder .image-element {
+    position: relative;
+}
+
+.blogistic-repeater-control-inner .image-field .image-holder .image-element .remove-image {
+    display: none;
+}
+.blogistic-repeater-control-inner .image-field .image-holder .image-element:hover .remove-image {
+    position: absolute;
+    cursor: pointer;
+    color: #ff00009e;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed;
+    text-align: center;
+    display: flex;
+    top: 0;
+}
+
+.blogistic-repeater-control-inner .image-field .image-holder .image-element:hover img {
+    opacity: 0.5;
+}
+
+
+.blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .item-heading {
+    flex: 0 1 80%;
+    text-transform: capitalize;
+    cursor: move;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 10px;
+    line-height: 13px;
+
+}
+
+.blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .dashicons {
+    flex: 0 1 10%;
+    padding: 0px;
+    vertical-align: middle;
+    line-height: 19px;
+    padding: 5px;
+    box-shadow: 0 0 3px 1px #e0e0e0;
+    background-color: #f4f4f4;
+}
+
+.blogistic-repeater-control-inner .blogistic-repeater-item .item-heading-wrap .dashicons.dashicons-visibility {
+    border-left: 0;
+}
+
+.blogistic-repeater-control-inner .blogistic-repeater-item .item-control-fields.isShow {
+    display: block;
+}
+
+
+.blogistic-repeater-control .fontawesome-icon-picker .icon-header > div.active-icon {
+    flex: 80%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.blogistic-repeater-item.popupActive{
+    border-top: 2px solid #2271b1;
+}
+
+
+
+.customize-social-share-control .blogistic-social-share-inner .sort-list .sort-item {
+    padding: 8px;
+}
+
+.blogistic-social-share-inner .components-button.is-small.has-icon:not(.has-text) {
+    width: 60px;
+    padding-right: 5px;
+}
+
+
+
+    
+
+/******** Fontawesome Icon picker ****************/
+.blogistic-repeater-control .fontawesome-icon-picker .icon-header {
+    cursor: pointer;
+}
+
+.blogistic-repeater-control .fontawesome-icon-picker .icons-list i,
+.customize-control-social-share .customize-social-share-control .dropdown-wrap .social-share-icons i
+ {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px;
+    width: 16px;
+}
+
+.blogistic-repeater-control .fontawesome-icon-picker .icon-header {
+    display: flex;
+    background: #f0f0f1;
+    align-items: center;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+}
+
+.blogistic-repeater-control .fontawesome-icon-picker .icon-header i {
+    font-size: 17px;
+}
+
+.blogistic-repeater-control .fontawesome-icon-picker .icon-header > div {
+    text-align: center;
+    padding: 10px;
+}
+
+.blogistic-repeater-control .fontawesome-icon-picker .icon-holder .icons-list
+ {
+    height: 190px;
+    overflow: auto;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 3px rgba(174 174 174 / 50%);
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 191px;
+    margin-left: 1px;
+}
+
+.customize-control-social-share .customize-social-share-control .dropdown-wrap
+ {
+    height: 225px;
+    overflow: auto;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 3px rgba(174 174 174 / 50%);
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 220px;
+    margin-left: 1px;
+}
+
+#sub-accordion-section-general_settings_panel .blogistic-repeater-item .item-control-fields .single-control.checkbox-field .control-inner{
+    display: flex;
+}
+
+#sub-accordion-section-general_settings_panel .blogistic-repeater-item .item-control-fields .single-control.checkbox-field .control-inner input{
+        flex: 0;
+        margin-right: 15px;
+}
+
+#sub-accordion-section-general_settings_panel .blogistic-repeater-item .item-control-fields .single-control.checkbox-field .control-inner  label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.blogistic-repeater-item .single-control.alignment-field {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.blogistic-repeater-item .single-control.alignment-field .alignment-items {
+    display: flex;
+}
+
+.blogistic-repeater-item .single-control.alignment-field .alignment-items .alignment-item{
+    flex: 0 1 33%;
+    padding: 7px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.blogistic-repeater-item .single-control.alignment-field .alignment-items .alignment-item:hover{
+    cursor: pointer;
+    }
+
+.blogistic-repeater-item .single-control.alignment-field .alignment-items .alignment-item:not(.isactive) {
+    box-shadow: inset 0 0 0 1px #dfdfdf;
+}
+
+.blogistic-repeater-item .single-control.alignment-field .alignment-items .alignment-item.isactive {
+    background: var(--wp-components-color-accent,var(--wp-admin-theme-color,#007cba));
+    color: #fff;
+}
+
+#customize-control-video_playlist_repeater .blogistic-repeater-item .remove-item .dashicons-trash {
+    background-color: #ff4e7d;
+    color: #fff;
+    font-size: 10px;
+    width: 18px;
+    height: 17px;
+    visibility: hidden;
+    text-decoration: none;
+    line-height: 18px;
+    border-radius: 15px;
+    margin-left: -5px;
+}
+
+#customize-control-video_playlist_repeater .blogistic-repeater-control .blogistic-repeater-control-inner .blogistic-repeater-item:hover .remove-item .dashicons-trash {
+    visibility: visible;
+}
+
+/** Social share repeater **/
+
+    .customize-control-social-share-new .customize-social-share-new-control .item{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4px;
+        align-items: center;
+        font-size: 15px;  
+        position: relative;
+        border: 1px solid #f0f0f0;
+        margin-bottom: 18px;
+        padding: 11px;
+    }
+
+   .customize-control-social-share-new .customize-social-share-new-control .item .current-icon-label {
+        flex: 0 1 60%;
+    }
+
+    .customize-control-social-share-new .customize-social-share-new-control .item .dashicons-trash {
+        position: absolute;
+        left: -11px;
+        top: -7px;
+        background-color: #ff2d2d;
+        color: #fff;
+        font-size: 10px;
+        height: 19px;
+        width: 17px;
+        border-radius: 15px;
+        vertical-align: middle;
+        line-height: 19px;
+        padding-left: 2px;
+        visibility: hidden;
+    }
+
+    .customize-control-social-share-new .customize-social-share-new-control .item:hover .dashicons-trash {
+        visibility: visible;
+    }
+
+    .customize-control-social-share-new .customize-social-share-new-control .item .dashicons-trash:hover {
+        background-color: #db1f1f;
+        cursor: pointer;
+    }
+
+    .customize-control-social-share-new .customize-social-share-new-control .add-to-list .dashicon {
+        padding-top: 7px;
+    }
+
+    .blogistic-social-share-control-popover.components-dropdown__content .components-popover__content {
+        background-color: #fff;
+        box-shadow: 0px 2px 4px 2px #0000001c;
+        border-radius: 4px;
+        padding: 12px;
+        width: min-content;
+    }
+
+    .blogistic-social-share-control-popover.components-dropdown__content .components-popover__content .social-share i {
+        padding: 6px;
+    }
+
+
+
+    .control-panel-content #accordion-section-add_menu {
+        padding: 10px;
+        margin: 10px;
+    }
+
+
+    
